@@ -6,6 +6,7 @@ This template project is designed to work with Openshift right out of the box.
 ## Usage
 
 Start a project based on this template:
+
 1. Create a new repo for the project
 2. Clone this repo locally
 3. Change remote to new repo (e.g. `git remote set-url origin https://github.com/inkOfPixel/example.git`)
