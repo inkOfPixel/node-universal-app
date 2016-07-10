@@ -1,0 +1,35 @@
+/**
+ * Copyright (c) 2016, inkOfPixel, Srl.
+ * All rights reserved.
+ */
+
+@mixin translate($x: 0, $y: 0) {
+	-webkit-transform: translateX($x) translateY($y);
+	-moz-transform: translateX($x) translateY($y);
+	-ms-transform: translateX($x) translateY($y);
+	-o-transform: translateX($x) translateY($y);
+	transform: translateX($x) translateY($y);
+}
+
+@mixin rotate($deg: 0) {
+	-webkit-transform: rotate($deg);
+	-moz-transform: rotate($deg);
+	-ms-transform: rotate($deg);
+	-o-transform: rotate($deg);
+	transform: rotate($deg);
+}
+
+@mixin placeholder($color: #000){
+	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+		color: $color;
+	}
+	::-moz-placeholder { /* Firefox 19+ */
+		color: $color;
+	}
+	:-ms-input-placeholder { /* IE 10+ */
+		color: $color;
+	}
+	:-moz-placeholder { /* Firefox 18- */
+		color: $color;
+	}
+}
