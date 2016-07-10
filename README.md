@@ -12,7 +12,7 @@ Start a project based on this template:
 3. Change remote to new repo (e.g. `git remote set-url origin https://github.com/inkOfPixel/example.git`)
 4. Push (`git push origin master`)
 
-> **NOTE**: This procedure has yet to be tested. Once it proofs that it works, creating a script could speed the process.
+> **Note**: This procedure has yet to be tested. Once it proofs that it works, creating a script could speed the process.
 
 After running `npm install` to install required dependencies you need to check the file `src/config.js` to config your project variables (like the MongoDB local db name).
 
