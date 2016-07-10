@@ -35,6 +35,7 @@ npm run deploy:production
 ### Conventions
 
 **Why every file is named index?**
+
 There are a few reasons that led to this choice:
 - To ease refactoring. It is pretty common that one wants to refactor a component into subcomponents to improve code
 readability and reusability. If everything regarding a component is already grouped under a folder, the folder structure doesn't need to be changed to accomodate new subcomponents.
