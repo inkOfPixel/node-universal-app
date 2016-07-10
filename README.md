@@ -37,10 +37,11 @@ npm run deploy:production
 **Why every file is named index?**
 There are a few reasons that led to this choice:
 - To ease refactoring. It is pretty common that one wants to refactor a component into subcomponents to improve code
-readability and reusability.
-- A major part of the project consists in the development of React components, that are divided by between JSX
+readability and reusability. If everything regarding a component is already grouped under a folder, the folder structure doesn't need to be changed to accomodate new subcomponents.
+- A major part of the project consists in the development of React components, that are divided between JSX
 representation and style. Therefore a components is better represented as a folder that contains this two parts, the
 folder name being the component name.
+- Following the first two reasons, the choice of using index as a name is to avoid verbosity since webpack is able to resolve the right file using just the folder name.
 
 ### DevTools
 This template is ready to be used with [Redux DevTools Extension](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd) ([GitHub](https://github.com/zalmoxisus/redux-devtools-extension))
