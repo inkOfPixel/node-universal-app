@@ -23,7 +23,7 @@ To serve the website locally run:
 npm run start:dev
 ```
 
-### production
+### Production
 
 In order to deploy the app to a production Openshift gear, you must add the add the Openshift remote naming it "production".
 
