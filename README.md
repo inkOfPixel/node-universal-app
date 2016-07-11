@@ -32,6 +32,8 @@ To start the deployment process run:
 npm run deploy:production
 ```
 
+> **Note**: To be able to run the script, you'll need to run once `chmod u+x scripts/deploy.sh`
+
 ### Conventions
 
 **Why every file is named index?**
